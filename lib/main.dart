@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:tabi_efendim_application/home_page.dart';
 import 'package:tabi_efendim_application/splash_screen.dart';
 
 void main() {
@@ -14,7 +13,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Tabi Efendim',
       debugShowCheckedModeBanner: false,
-      home: HomePage(),
+      home: SplashScreen(),
     );
   }
 }

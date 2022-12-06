@@ -36,7 +36,7 @@ class _HomePageState extends State<HomePage> {
               child: NeumorphicButton(
                 tooltip: "Uzun Basma :)",
                 child: Center(
-                    child: Text("Tıkla!",
+                    child: Text("Ne diyorduk!",
                     style: GoogleFonts.poppins(
                       fontSize: 20
                     ),
