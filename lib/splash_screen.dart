@@ -10,7 +10,7 @@ class SplashScreen extends StatefulWidget {
 }
 
 class _SplashScreenState extends State<SplashScreen> {
-
+/*
   @override
   void initState() {
     Future.delayed(const Duration(seconds: 1, milliseconds: 30), () async {
@@ -18,7 +18,7 @@ class _SplashScreenState extends State<SplashScreen> {
           context, new MaterialPageRoute(builder: (context) => new HomePage()));
     });
     super.initState();
-  }
+  }*/
 
   @override
   Widget build(BuildContext context) {
@@ -26,31 +26,34 @@ class _SplashScreenState extends State<SplashScreen> {
     var size = MediaQuery.of(context).size;
 
     return Scaffold(
-      backgroundColor: Colors.red,
       body: Center(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
             SizedBox(
               width: size.width * 0.6,
-              height: size.height * 0.6,
               child: Card(
+                clipBehavior: Clip.antiAliasWithSaveLayer,
+                semanticContainer: true,
                 color: Colors.white,
                 shape: CircleBorder(),
                 shadowColor: Colors.grey,
                 elevation: 5,
                 child: Center(
-                  child: Text(
-                    "Tabi Efendim",
-                    style: GoogleFonts.poppins(
-                      fontSize: 25,
-                      letterSpacing: 1.5,
-                      fontWeight: FontWeight.w500,
+                  child: Image.asset("assets/launcher_icon.png")
                     ),
                   ),
                 ),
+            Padding(
+              padding: const EdgeInsets.only(top: 30),
+              child: Text("Tabi Efendim!",
+              style: GoogleFonts.poppins(
+                letterSpacing: 5,
+                fontSize: 20,
+                fontWeight: FontWeight.w400,
               ),
-            ),
+              ),
+            )
           ],
         ),
       ),
