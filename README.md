@@ -1,16 +1,11 @@
-# tabi_efendim_application
 
-A new Flutter project.
+# Tabi Efendim 😀
 
-## Getting Started
+Bu proje, bir Flutter uygulamasında bir düğme gösteren bir widget'ı içerir. Düğme basıldığında, uygulamada bulunan bir müzik dosyası oynatılır. Düğme, "neumorphic" tasarımı olan bir NeumorphicButton widget'ıdır ve bu sayede 3D bir görünüme sahiptir. Müzik dosyası oynatılırken, AssetsAudioPlayer paketini kullanan assetsAudioPlayer nesnesi kullanılır. Bu nesne, müzik dosyasını açar "Tabi Efendim" diye bir ses çıkarır.
 
-This project is a starting point for a Flutter application.
+## Ekran Görüntüleri
 
-A few resources to get you started if this is your first Flutter project:
+![Uygulama Ekran Görüntüsü](https://github.com/kadironer/tabi_efendim_application/blob/master/screenshot/1.png?raw=true)
+![Uygulama Ekran Görüntüsü](https://github.com/kadironer/tabi_efendim_application/blob/master/screenshot/2.png?raw=true)
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+  
